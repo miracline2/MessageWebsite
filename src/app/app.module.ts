@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MessageComponent } from './message/message.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MessageComponent
+    MessageComponent,
+    FrontpageComponent
   ],
   imports: [
     BrowserModule,
