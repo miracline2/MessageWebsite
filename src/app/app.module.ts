@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MessageComponent } from './message/message.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
+import { LetterCardComponent } from './letter-card/letter-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MessageComponent,
-    FrontpageComponent
+    FrontpageComponent,
+    LetterCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+
+  <h2> Click a cards to get a message.....🥰🥰 </h2>
+
+<div class="content " *ngFor="let card of cards">
+
+    <div class="card " (click)="cardClicked(card)" [@cardFlip]="card.state" >
+    
+        <div class="face back">
+          <img src= {{card.faceFront}} />
+        </div>
+        <div class="face front">
+          <img src= {{card.faceBack}} />
+        </div>
+    
+      </div>
+
+</div>
+
+
+<div class="btn">
+  <button class="btnclick" routerLink="/message"> click here----- > </button>
+</div>
+

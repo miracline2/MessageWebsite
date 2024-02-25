@@ -11,7 +11,7 @@ export class MessageComponent implements OnInit {
   noBtn : any;
   yesBtn:any;
 
-  message = 'Hey Vishnu!! Will You Marry Me?'
+  message = 'Hey Vishnu!! Are You Ready To Create More Memories With Me?'
 
  ngOnInit(): void {
   this.question= document.querySelector(".question");
