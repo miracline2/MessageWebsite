@@ -8,17 +8,21 @@ import { MessageComponent } from './message/message.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
 import { LetterCardComponent } from './letter-card/letter-card.component';
 
+import {MatCardModule} from '@angular/material/card';
+
 @NgModule({
   declarations: [
     AppComponent,
     MessageComponent,
     FrontpageComponent,
-    LetterCardComponent
+    LetterCardComponent,
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
